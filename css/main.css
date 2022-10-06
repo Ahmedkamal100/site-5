@@ -1,0 +1,49 @@
+/* .bigImage{
+    width: 40%;
+    height: 400px;
+}
+.bigImage img{
+    width: 100%;
+    height: 100%;
+}
+.images img{
+    width: 60px;
+    height: 70px;
+    border:1px solid black;
+    margin: 10px 10px;
+    cursor: pointer;
+} */
+body{
+    background: linear-gradient(120deg ,rgb(218, 201, 201), rgb(187, 187, 187),rgb(255, 255, 255));
+    min-height: 100vh;
+   
+}
+  
+
+.card{
+    background-color: #333;
+    color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.none{
+    display: none;
+}
+
+.dark{
+    background: linear-gradient(120deg ,#333, black,#666);
+    min-height: 100vh;
+   
+    color: aliceblue;
+}
+.margin {
+  padding: 5px !important;
+}
+.card{
+    border-radius:50px!important;
+   
+}
+.form-group input{
+    border-radius:50px!important;
+}
